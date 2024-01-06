@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>M'LANG</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Image/seal-of-mlang.png">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">M'LANG</a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icon">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class = "bx bx-x" id="close-icon"></i>
+        </label>
+
+            <nav class="navbar">
+                <a href="index.html" style="--i:0;">HOME</a>
+                <a href="about.html" style="--i:1;">ABOUT</a>
+                <a href="service.html" style="--i:2;">SERVICE</a>
+                <a href="contact_us.html" style="--i:3;">CONTACT US</a>
+                <a href="about-me.html" style="--i:4;">ABOUT ME</a>
+            </nav>
+    </header>
+
+    <section class="container1">
+        <div class="sub-container1">
+            <h3>Welcome to</h3>
+            <h2>M'Lang</h2>
+            <p>Embark the beauty of our municipality, It si our legacy!</p>
+        </div>
+    </section>
+    <section class="container2">
+        <div class = "sub-container2">
+            <h3>Behind of M'Lang</h3>
+            <h2><span>Discover</span> Us</h2>
+        </div>
+    </section>
+    <section class="container3">
+        <div class = "sub-container3">
+            <h2>The name Mlang <br>is a <span>legend</span></h2>
+            <p>Mlang is from the root word Tamlang which means “full of Bamboos” and it is originated from the Maguindanaoan language. The bario of Mlang was considered as part of the Buluan before. Maguindanaoan tribe was the first inhabitants in the bario of Tamlang/Mlang lead by Datu Inong.</p>
+            <a href="about.html"><button class="about-btn" >Learn more</button></a>
+        </div>
+        <div class = "sub-container-img">
+            <img src="Image/MunicipalityOfMlang.png" alt="Bamboo">
+        </div>
+    </section class= "main-img-caroussel">
+    <div class="img-carousel">
+        <div class="img-carousel-title">
+            <h3>Let's tour</h3>
+            <h2>Many <span>tourist spot</span> you can go for.</h2>
+        </div>
+        <section aria-label="Newest Photo" class="sub-img-carousel">
+            <div class="carousel" data-carousel>
+                <button class="carousel-button prev" data-carousel-button="prev" onclick="previousTitle()"><i class='bx bxs-left-arrow-alt'></i></button>
+                <button class="carousel-button next" data-carousel-button="next" onclick="nextTitle()"><i class='bx bxs-right-arrow-alt'></i></button>
+                <ul data-slides>
+                    <li class="slide" data-active>
+                        <img src="Image/Rizal.jpg" alt="Image 1">
+                    </li>
+                    <li class="slide">
+                        <img src="Image/hotel.png" alt="Image 2">
+                    </li>
+                    <li class="slide">
+                        <img src="Image/Srine.jpg" alt="Image 3">
+                    </li>
+                    <li class="slide">
+                        <img src="Image/plaza.png" alt="Image 4">
+                    </li>
+                    <li class="slide">
+                        <img src="Image/playGround.png" alt="Image 5">
+                    </li>
+                    <li class="slide">
+                        <img src="Image/relykResort.png" alt="Image 6">
+                    </li>
+                    <li class="slide">
+                        <img src="Image/cactusFarm.png" alt="Image 7">
+                    </li>
+                </ul>
+            </div>
+            <div class="title">
+                <ul>
+                  <li class="concept active">
+                    <h1>The Park of <span>Rizal</span></h1>
+                    <p>The Rizal Park" is a prominent and culturally significant landmark that
+                        holds historical significance. Located in the heart of a place named
+                        after the national hero Jose Rizal, this park serves as a tribute to his
+                        legacy and contributions to the nation. The park offers a serene and
+                        contemplative environment, featuring green spaces, sculptures, and
+                        monuments that commemorate pivotal moments in the country's history.
+                        Visitors to "The Rizal Park" can immerse themselves in the rich cultural
+                        heritage, with the surroundings providing a reflective atmosphere. It
+                        stands not only as a recreational space but also as a symbol of national
+                        pride and a reminder of the enduring spirit of the Filipino people.</p>
+                  </li>
+                  <li class="concept" id="Jennies">
+                    <h1><span>Jennies Hotel</span> and <br> <span>Swimming pool</span></h1>
+                    <p>Jennies Hotel and Swimming Pool is a hospitality destination that
+                        combines the comforts of accommodation with the pleasures of leisure.
+                        This establishment offers more than just a place to stay; it provides a
+                        comprehensive experience for guests seeking relaxation and recreation.
+                        The hotel boasts modern amenities and well-appointed rooms, ensuring
+                        a comfortable and enjoyable stay for visitors. The addition of a
+                        swimming pool enhances the overall appeal, providing a refreshing
+                        escape and a source of entertainment. Whether guests are traveling
+                        for business or leisure, "Jennies Hotel and Swimming Pool" aims to
+                        create a welcoming environment where guests can unwind, socialize,
+                        and make the most of their time away from home.</p>
+                  </li>
+                  <li class="concept">
+                    <h1>The <span>Shrine</span></h1>
+                    <p>"Serene Sanctuary: A Mountain Retreat and Prayer Haven" is an enchanting destination that combines the majesty of nature with a tranquil space for reflection and spirituality. Nestled amidst the mountains, this place offers visitors a breath of fresh air, providing a welcome escape from the hustle and bustle of everyday life. The crisp mountain air, scenic landscapes, and the overall ambiance make it an ideal sanctuary for those seeking a peaceful retreat. Beyond the natural beauty, it serves as a prayer place, inviting individuals to connect with their spirituality and find solace in the quietude of the surroundings. This destination not only captivates with its scenic allure but also embraces a sense of serenity, making it a cherished spot for those who seek both the beauty of nature and a place for heartfelt contemplation.</p>
+                  </li>
+                  <li class="concept">
+                    <h1>Our <span>Plaza</span></h1>
+                    <p>Our Plaza stands as a communal centerpiece and a cherished gathering space within a community. This title likely refers to a public square or plaza that holds significance for the local residents. Such plazas often serve as social hubs, hosting a variety of cultural events, celebrations, and community activities. "Our Plaza" symbolizes a sense of ownership and pride among the community members, emphasizing the shared identity and connection to the public space. Whether adorned with historical monuments, vibrant greenery, or simply open spaces for socializing, "Our Plaza" is a testament to the importance of communal bonds and the heart of shared experiences within a neighborhood or town.</p>
+                  </li>
+                  <li class="concept">
+                    <h1>Our <span>Play Ground</span></h1>
+                    <p>Our Playground invokes a sense of joy, laughter, and community spirit. This title likely refers to a designated area where people, especially children, come together for recreational activities and play. Playgrounds are vital spaces within communities, fostering a sense of belonging and shared enjoyment. This signifies a collective ownership, suggesting that it is not just a physical space but a cherished part of the community's identity. The playground may feature swings, slides, and various play structures, offering a safe and lively environment for children to engage in physical activity and social interaction. This title reflects the inclusive and vibrant nature of a space where friendships are formed, memories are created, and the community comes together for the simple pleasure of play.</p>
+                  </li>
+                  <li class="concept">
+                    <h1><span>Relyk Resort</span></h1>
+                    <p>"The Oasis Haven: Most Visited Swimming Pool" suggests a place of refreshing allure and widespread popularity. This title likely denotes a swimming pool that has become a go-to destination for individuals seeking relaxation, recreation, and a break from the routine. Whether adorned with pristine waters, modern amenities, or scenic surroundings, The Oasis Haven implies an inviting and well-loved retreat. As the most visited swimming pool, it may have earned its acclaim through exceptional facilities, a welcoming atmosphere, or a combination of factors that make it a favored spot among locals and visitors alike. This title evokes an image of a thriving aquatic haven, where people gather to unwind, socialize, and bask in the enjoyment of a well-deserved aquatic escape.</p>
+                  </li>
+                  <li class="concept" id="cactusFarm">
+                    <h1>The <span>Cactus Farm</span></h1>
+                    <p>"The Cactus Oasis: A Tranquil Cactus Farm" conjures an image of a serene and unique agricultural haven dedicated to cultivating cacti. This title suggests a peaceful retreat where visitors can immerse themselves in the beauty of these resilient and captivating desert plants. "The Cactus Oasis" hints at a sanctuary that not only showcases an array of cactus varieties but also provides a tranquil environment for those who appreciate the quiet charm of arid landscapes. <br> <br>
+
+                    A cactus farm is likely to feature rows of carefully tended cacti, each displaying its distinct shape, size, and bloom. Visitors to "The Cactus Oasis" might find solace in the simplicity of the desert flora and marvel at the remarkable adaptations of these plants to harsh environments. The farm could serve as an educational space, offering insights into the diverse world of cacti and fostering an appreciation for their unique beauty. Overall, this title suggests a destination where nature enthusiasts can escape to experience the quiet grandeur of the desert within a carefully curated and peaceful setting.</p>
+                  </li>
+                </ul>
+              </div>
+        </section>
+    </div>
+    <section class="container4">
+        <div class="sub-container4">
+            <h1><span>98K+</span></h1>
+            <p>POPULATION</p>
+            <h1><span>37</span></h1>
+            <p>BARANGAYS</p>
+            <h1><span>312+</span></h1>
+            <p>SQR. KM.</p>
+            <h1><span>71</span></h1>
+            <p>YEARS OF <br> FOUNDATION</p>
+        </div>
+    </section>
+    <section class="container5">
+        <div class="forVisitor">
+            <div class="visImg"><img src="Image/airport.png" alt="Visitor Image"></div>
+            <div class="visContent">
+                <h2>For <span>Visitors</span></h2>
+                <p>Come and visit Mlang, there are many places to go for.</p>
+            </div>
+            <div class="visBtn">
+                <button  onclick="goToPageWithId()">Learn more <i class='bx bx-right-arrow-alt'></i></button>
+            </div>
+        </div>
+        <div class="forResident">
+            <div class="resImg"><img src="Image/enviroment.png" alt="Visitor Image"></div>
+            <div class="resContent">
+                <h2>For <span>Residents</span></h2>
+                <p>The municipality is offering cash assistance.</p>
+            </div>
+            <div class="resBtn">
+                <button  onclick="goToPageWithId2()">Learn more <i class='bx bx-right-arrow-alt'></i></button>
+            </div>
+        </div>   
+    </section>
+    <footer>
+        <div class="footerContainer1">
+            <div class="footerDetails">
+                <img src="Image/seal-of-mlang.png" alt="Seal of Mlang">
+                <h4>Municipal Government of <br> Mlang Cotabato</h4>
+                <div class="footerInformation">
+                    <p><i class='bx bxs-phone'></i>064-572-6740</p>
+                    <p><i class='bx bxs-phone'></i>064-428-0197</p>
+                    <p><i class='bx bxs-phone'></i>0951-8238652</p>
+                    <p><i class='bx bxs-phone'></i>0910-5053772</p>
+                    <p><i class='bx bxs-phone'></i>0930-2486367</p>
+                    <p><i class='bx bxs-phone'></i>Police Hotline: <br>0950-154563</p>
+                    <p><i class='bx bxs-location-plus'></i>Poblacion B, Mlang, Cotabato</p>
+                    <p><i class='bx bx-time-five'></i>Open Hours of Government: <br>Monday - Friday <br>8am - 5pm</p>
+                </div>
+            </div>
+            <div class="footerSection">
+                <div class="footerReference">
+                    <h4>References</h4>
+                    <p><a href="https://www.w3schools.com/">W3school</a></p>
+                    <p><a href="https://mlang.gov.ph/">Municipality of Mlang Website</a></p>
+                    <p><a href="https://www.youtube.com/">YouTube</a></p>
+                </div>
+                <div class="footerSocialLinks">
+                    <h4>Follow Me on My <br>Social Media Account</h4>
+                    <div class="footerSubSocialLinks">
+                        <a href="https://www.facebook.com/angelo.duran.7505468" about="_blank"><img src="Image/facebook.png" alt="facebook"></a>
+                        <a href="https://www.instagram.com/angelzitch/"><img src="Image/instagram.png" alt="Instagram"></a>
+                        <a href="https://www.tiktok.com/@angeloduran152"><img src="Image/tiktok.png" alt="Tiktok"></a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='bx bxs-chevron-up'></i></button>
+</body>

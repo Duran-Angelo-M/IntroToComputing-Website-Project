@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <title>M'LANG > CONTACT US</title>
+    <link rel="icon" href="Image/seal-of-mlang.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">M'LANG</a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icon">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class = "bx bx-x" id="close-icon"></i>
+        </label>
+
+            <nav class="navbar">
+                <a href="index.html" style="--i:0;">HOME</a>
+                <a href="about.html" style="--i:1;">ABOUT</a>
+                <a href="service.html" style="--i:2;">SERVICE</a>
+                <a href="contact_us.html" style="--i:3;">CONTACT US</a>
+                <a href="about-me.html" style="--i:4;">ABOUT ME</a>
+            </nav>
+    </header>
+    <section class="lakapulos">
+        <div class="contact-container1">
+            <h2><span>Contact</span> Us</h2>
+            <p>Got a question? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+        </div>
+    </section>
+    <section class="paraMaCenter">
+        <section class = "contact-container2">
+            <div class="contact-subcontainer2">
+                <form onsubmit="return showFeedback()">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" required>
+                    <label for="email">Email</label>
+                    <input id="email" type="email" required>
+                    <label for="message">Message</label>
+                    <input id="message" type="text">
+                    <input id="submit" type="submit">
+                </form>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <div class="footerContainer1">
+            <div class="footerDetails">
+                <img src="Image/seal-of-mlang.png" alt="Seal of Mlang">
+                <h4>Municipal Government of <br> Mlang Cotabato</h4>
+                <div class="footerInformation">
+                    <p><i class='bx bxs-phone'></i>064-572-6740</p>
+                    <p><i class='bx bxs-phone'></i>064-428-0197</p>
+                    <p><i class='bx bxs-phone'></i>0951-8238652</p>
+                    <p><i class='bx bxs-phone'></i>0910-5053772</p>
+                    <p><i class='bx bxs-phone'></i>0930-2486367</p>
+                    <p><i class='bx bxs-phone'></i>Police Hotline: <br>0950-154563</p>
+                    <p><i class='bx bxs-location-plus'></i>Poblacion B, Mlang, Cotabato</p>
+                    <p><i class='bx bx-time-five'></i>Open Hours of Government: <br>Monday - Friday <br>8am - 5pm</p>
+                </div>
+            </div>
+            <div class="footerSection">
+                <div class="footerReference">
+                    <h4>References</h4>
+                    <p><a href="https://www.w3schools.com/">W3school</a></p>
+                    <p><a href="https://mlang.gov.ph/">Municipality of Mlang Website</a></p>
+                    <p><a href="https://www.youtube.com/">YouTube</a></p>
+                </div>
+                <div class="footerSocialLinks">
+                    <h4>Follow Me on My <br>Social Media Account</h4>
+                    <div class="footerSubSocialLinks">
+                        <a href="https://www.facebook.com/angelo.duran.7505468" about="_blank"><img src="Image/facebook.png" alt="facebook"></a>
+                        <a href="https://www.instagram.com/angelzitch/"><img src="Image/instagram.png" alt="Instagram"></a>
+                        <a href="https://www.tiktok.com/@angeloduran152"><img src="Image/tiktok.png" alt="Tiktok"></a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='bx bxs-chevron-up'></i></button>
+    </body>
